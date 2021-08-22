@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+.wrap{
+    width:100vw;
+    overflow: hidden;
+    font-family: 'Noto Serif JP', serif;
+    font-weight :100;
+}
+header{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fv_pc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+header img{
+    width: 15vw;
+    position: absolute;
+    top: 20vh;
+    transform: translate(-50%, -50%);
+}
+.concept{
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.concept p{
+    font-size: 1.3vw;
+    line-height: 3vw;
+    letter-spacing: 0.5vw;
+}
+/* tab */
+@media screen and (max-width: 1024px) and (min-width:480px) {
+
+}
+/* sp */
+@media screen and (max-width: 479px) {
+}
