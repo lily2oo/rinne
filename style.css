@@ -7,6 +7,29 @@
     font-family: 'Noto Serif JP', serif;
     font-weight :100;
 }
+#info{
+	display: none;
+}
+.modaal-container{
+    max-width: 600px;
+    color: #88b7e7;
+    border-radius: 15px;
+	box-shadow: 0 0 10px rgba(136, 183, 231, 0.3);
+}
+.modaal-container h2{
+    margin: 10px 0;
+}
+.modaal-close:after, 
+.modaal-close:before{
+	background:#fff;
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#88b7e7;
+}
 header{
     position: relative;
     width: 100vw;
@@ -34,6 +57,9 @@ header img{
     font-size: 1.3vw;
     line-height: 3vw;
     letter-spacing: 0.5vw;
+}
+footer{
+    text-align: center;
 }
 /* tab */
 @media screen and (max-width: 1024px) and (min-width:480px) {
